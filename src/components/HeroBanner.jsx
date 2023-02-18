@@ -90,7 +90,7 @@ const HeroBanner = () => {
 
         {/* INTRO START */}
         <motion.div
-          className="flex flex-col mb-10 text-center md:text-left text-[16px] md:text-[18px] leading-[24px] md:leading-[28px] relative"
+          className="flex flex-col mt-10 text-center md:text-left text-[16px] md:text-[18px] leading-[24px] md:leading-[28px] relative"
           initial={{ y: 300, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.25 }}
@@ -139,7 +139,7 @@ const HeroBanner = () => {
 
         {/* PERSON BLOCK START */}
         <motion.div
-          className="w-[300px] md:w-[360px] 2xl:w-[475px] absolute bottom-0 left-[50%] -translate-x-1/2"
+          className="w-[300px] md:w-[360px] 2xl:w-[475px] absolute bottom-10 left-[50%] -translate-x-1/2"
           initial={{ y: 200, x: "-50%" }}
           animate={{ y: 0 }}
           transition={{ duration: 0.5 }}
