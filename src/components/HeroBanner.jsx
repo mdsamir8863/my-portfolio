@@ -99,7 +99,8 @@ const HeroBanner = () => {
             👋 Hi, I Am <span className="font-semibold">Md Samir Ansari</span>
           </div>
           <div className="max-w-[510px]">
-          <strong>Frontend Developer</strong> with high level of experience in web development and designing , producting the Quality work.
+            <strong>Frontend Developer</strong> with high level of experience in
+            web development and designing , producting the Quality work.
           </div>
         </motion.div>
         {/* INTRO END */}
@@ -139,12 +140,12 @@ const HeroBanner = () => {
 
         {/* PERSON BLOCK START */}
         <motion.div
-          className="w-[300px] md:w-[360px] 2xl:w-[475px] absolute bottom-10 left-[50%] -translate-x-1/2"
+          className="w-[300px] md:w-[360px] 2xl:w-[475px] absolute bottom-0 left-[50%] -translate-x-1/2"
           initial={{ y: 200, x: "-50%" }}
           animate={{ y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <img src={man} alt="" />
+          <img className="myImg" src={man} alt="" />
 
           {/* HIRE ME BUTTON START */}
           <div

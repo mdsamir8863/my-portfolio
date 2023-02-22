@@ -32,3 +32,11 @@
         display: none;
     }
 }
+@media screen and (max-width: 480px) {
+    .myImg {
+        height: 19rem;
+    }
+    .flex-col{
+        text-align: center;
+    }
+}
