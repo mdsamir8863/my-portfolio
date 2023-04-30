@@ -80,10 +80,8 @@ const HeroBanner = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-[50px] md:text-[120px] 2xl:text-[189px] leading-[50px] md:leading-[125px]  2xl:leading-[192px] font-oswald uppercase">
-            I Am A Creative
-            <br className="invisible md:visible" />
-            CODER
+          <h1 className="text-[50px] md:text-[120px] 2xl:text-[189px] leading-[50px] md:leading-[125px]   2xl:leading-[192px] font-oswald capitalize">
+            I Am A Creative Coder
           </h1>
         </motion.div>
         {/* BIG HEADING END */}
@@ -98,7 +96,7 @@ const HeroBanner = () => {
           <div className="font-light mb-4">
             👋 Hi, I Am <span className="font-semibold">Md Samir Ansari</span>
           </div>
-          <div className="max-w-[510px]">
+          <div className="max-w-[510px] mb-5">
             <strong>Frontend Developer</strong> with high level of experience in
             web development and designing , producting the Quality work.
           </div>
