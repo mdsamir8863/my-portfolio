@@ -36,8 +36,8 @@ const Skills = () => {
             className="bg-[#111111] py-[50px] md:py-[100px] relative overflow-hidden md:overflow-visible"
         >
             {/* BACKGROUND ELEMENTS START */}
-            <div className="sec-3-bg-gradient-1" />
-            <div className="sec-3-bg-gradient-2" />
+            {/* <div className="sec-3-bg-gradient-1" />
+            <div className="sec-3-bg-gradient-2" /> */}
             <motion.img className="sec-3-p-e-1" style={{ y: y1 }} src={pe1} />
             <motion.img className="sec-3-p-e-2" style={{ y: y2 }} src={pe2} />
             <motion.img className="sec-3-p-e-3" style={{ y: y3 }} src={pe3} />
